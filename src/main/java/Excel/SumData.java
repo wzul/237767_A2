@@ -38,7 +38,7 @@ public class SumData {
 
         sortToProperPresentation();
     }
-
+    
     public void sortToProperPresentation() {
         String[] distinctMatrik = getDistinctMatrik();
         totalkeywordsCount = new int[distinctMatrik.length][javaKeywords.length];
